@@ -15,5 +15,39 @@
                 "myapp8d0452cf": {}
             }
         }
+    },
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "myapp-test-20190804133238-authRole",
+            "UnauthRoleArn": "arn:aws:iam::643260079476:role/myapp-test-20190804133238-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::643260079476:role/myapp-test-20190804133238-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "myapp-test-20190804133238-deployment",
+            "UnauthRoleName": "myapp-test-20190804133238-unauthRole",
+            "StackName": "myapp-test-20190804133238",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:643260079476:stack/myapp-test-20190804133238/81c8df30-b668-11e9-8b69-0accf194060a"
+        },
+        "categories": {
+            "auth": {
+                "myapp8d0452cf": {}
+            }
+        }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "myapp-dev-20190804142452-authRole",
+            "UnauthRoleArn": "arn:aws:iam::643260079476:role/myapp-dev-20190804142452-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::643260079476:role/myapp-dev-20190804142452-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "myapp-dev-20190804142452-deployment",
+            "UnauthRoleName": "myapp-dev-20190804142452-unauthRole",
+            "StackName": "myapp-dev-20190804142452",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:643260079476:stack/myapp-dev-20190804142452/ce0526e0-b66f-11e9-9037-0230e8e86e24"
+        },
+        "categories": {
+            "auth": {
+                "myapp8d0452cf": {}
+            }
+        }
     }
 }
